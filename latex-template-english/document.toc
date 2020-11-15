@@ -1,0 +1,6 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Problem statement}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Contributions and results}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Structure of the thesis}{2}{section.1.3}
+\contentsline {chapter}{\numberline {A}Sources}{5}{appendix.A}

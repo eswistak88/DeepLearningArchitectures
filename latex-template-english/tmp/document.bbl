@@ -1,0 +1,16 @@
+\begin{thebibliography}{1}
+
+\bibitem{Gamma95}
+Gamma, E., Helm, R., Johnson, R., Vlissides, J.:
+\newblock \mbox{Design} Patterns: Elements of Reusable Object-Oriented
+  Software.
+\newblock Pearson \mbox{Education} (1994)
+
+\bibitem{Kolb14}
+Kolb, J., Zimoch, M., Weber, B., Reichert, M.:
+\newblock {How Social Distance of Process Designers Affects the Process of
+  Process Modeling: Insights from a Controlled Experiment}.
+\newblock In: Proc 29th Symposium on Applied Computing (SAC'14), Gyeongju,
+  South Korea, ACM (2014)  {1364--1370}
+
+\end{thebibliography}

@@ -1,0 +1,70 @@
+\documentclass[numbers=noenddot]{thesis}
+
+% put name, etc. here
+\fullname{Max Munk}
+\email{max.munk@uni-ulm.de}
+\headline{A long title splitted \\ into two lines}
+%\titel{A title}
+\thesisyear{2018}
+\matnr{1234567890}
+\reviewerA{Prof.\ Dr.\ James Butler}
+\reviewerB{Prof.  Dr.  Jing Zhou} 
+\tutor{Joe Help}
+\typ{Master thesis\ }
+\faculty{Engineering, Computer Science and Psychology}
+\department{Neural Information Processing}
+
+
+\hypersetup{%
+	pdftitle=\pdfescapestring{\thetitel},
+	pdfauthor={\thefullname},
+ 	pdfsubject={\thetyp},
+}
+
+
+
+\begin{document}
+\frontmatter
+\maketitle
+% imprint
+\clearpage
+\imprint
+
+\cleardoublepage
+% starting here linespacing 1,4 10pt/14pt
+\setstretch{1.4}
+
+\input{abstract}
+\cleardoublepage
+\input{acknowledgment}
+
+\tableofcontents
+
+\mainmatter
+% chapters of the thesis start here
+
+\input{introduction}
+
+% bibliograhpy
+\bibliographystyle{splncs}
+\begingroup
+\interlinepenalty 10000
+\sloppy
+\bibliography{literature}
+\endgroup
+
+% appendices
+\appendix
+% appendices starting here
+\input{sources}
+
+\backmatter	
+
+\listoffigures
+\listoftables
+
+
+\clearpage
+\honestydisclaimer
+
+\end{document}

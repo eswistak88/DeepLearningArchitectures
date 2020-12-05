@@ -5,40 +5,22 @@
 % % %
 \chapter{Introduction}
 \label{cha:introduction}
-The introduction of a thesis usually contains the motivation for the topic, the problem statement (see section \ref{sec:introduction:problemstatement}), a description of the  contribution / results of the thesis (see section \ref{sec:introduction:objective}), and a short description of the structure of the thesis (see section \ref{sec:introduction:structure}).\\
-
-
-% Example referencing figures
-A figure is always referenced in text. See vor example figure \ref{fig:rbf-net}. \\ %linebreak
-
-% Referencing chapters, sections, ...
-Whole chapters are referenced using  Chapter \ref{cha:introduction}, subsections using subsection \ref{sec:introduction:problemstatement}. \\ %linebreak
-
-% Example referencing literature
-Statement originating from the literature receive a reference at the end of the sentence \cite{schwenker2001three}. 
-% Figure of a 2 layer RBF network
-\begin{figure}[htp]
-\begin{center}
-  \includegraphics[width=0.99\linewidth]{rbf-net} %pdf, jpg, png...
-  \caption{A simple two layer radial basis function network}
-  \label{fig:rbf-net}
-\end{center}
-\end{figure}
+This project will investigate the marginal cost and methods of adding new speakers into a convolutional neural network trained for speaker identification. The goal is to identify an approach that will allow additional speakers to be added to the network and additionally be identified when they issue a new, previously unheard utterance. The project will investigate different approaches to adding additional speakers to a trained neural network and attempt to quantify the additional loss incurred, what, if any, effect on accuracy this has, and the training time such an approach would require. Ideally, this could result in systems that could learn the identities of their users and have applications in both human-computer interraction and security areas.\\
 
 % Section: problem statement
 \section{Problem statement}
 \label{sec:introduction:problemstatement}
-The problem statement of your thesis goes here!
+Given a pre-trained convolutional neural network that is able to identify a speaker given a 3-second sample utterance or a series of 3-second sample utterances add additional speakers to the neural networks corpus incrementally such that the network learns to identify new speakers.
 
 
 % Section: objective
 \section{Contributions and results}
 \label{sec:introduction:objective}
-Describe contributions and results here!
+In the process of adding speakers we want to ensure that both the additional training time required is minimized and that the accuracy of the network remains high.
 
 
 % Section: structure of the thesis
 \section{Structure of the thesis}
 \label{sec:introduction:structure}
-Explain the structure of your thesis here!
+This report will first go over the architecture and pre-processing pipeline for the neural network and give a brief overview of the data which the network was trained on. We will additionally summarize the results of previous experiments conducted by the researchers and finally, give an overview of what changes we intend to make to the network in order to allow for it to be trained incrementally.
 
